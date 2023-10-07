@@ -23,9 +23,15 @@ dependencies:
   express-async-handler:
     specifier: ^1.2.0
     version: 1.2.0
+  express-rate-limit:
+    specifier: ^7.1.0
+    version: 7.1.0(express@4.16.1)
   express-validator:
     specifier: ^7.0.1
     version: 7.0.1
+  helmet:
+    specifier: ^7.0.0
+    version: 7.0.0
   http-errors:
     specifier: ~1.6.3
     version: 1.6.3
@@ -353,6 +359,15 @@ packages:
     resolution: {integrity: sha512-rCSVtPXRmQSW8rmik/AIb2P0op6l7r1fMW538yyvTMltCO4xQEWMmobfrIxN2V1/mVrgxB8Az3reYF6yUZw37w==}
     dev: false
 
+  /express-rate-limit@7.1.0(express@4.16.1):
+    resolution: {integrity: sha512-pwKOMedrpJJeINON/9jhAa18udV2qwxPZSoklPZK8pmXxUyE5uXaptiwjGw8bZILbxqfUZ/p8pQA99ODjSgA5Q==}
+    engines: {node: '>= 16'}
+    peerDependencies:
+      express: ^4 || ^5
+    dependencies:
+      express: 4.16.1
+    dev: false
+
   /express-validator@7.0.1:
     resolution: {integrity: sha512-oB+z9QOzQIE8FnlINqyIFA8eIckahC6qc8KtqLdLJcU3/phVyuhXH3bA4qzcrhme+1RYaCSwrq+TlZ/kAKIARA==}
     engines: {node: '>= 8.0.0'}
@@ -486,6 +501,11 @@ packages:
     engines: {node: '>= 0.4.0'}
     dependencies:
       function-bind: 1.1.1
+    dev: false
+
+  /helmet@7.0.0:
+    resolution: {integrity: sha512-MsIgYmdBh460ZZ8cJC81q4XJknjG567wzEmv46WOBblDb6TUd3z8/GhgmsM9pn8g2B80tAJ4m5/d3Bi1KrSUBQ==}
+    engines: {node: '>=16.0.0'}
     dev: false
 
   /http-errors@1.6.2:
