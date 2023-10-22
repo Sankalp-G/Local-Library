@@ -2,6 +2,9 @@
 
 The Local Library Project is a web-based library management system built using Node.js, Express.js, and Mongoose. It allows users to browse a catalog of books, check out authors and reserved books, and manage library assets.
 
+This was part of the MDN Express Tutorial which you can find [here](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website)
+
+## Preview
 ![Preview](preview.png)
 
 ## Try it yourself
